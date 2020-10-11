@@ -1,0 +1,165 @@
+html {
+    height: 100%;
+  }
+  /* Warning I know, alot of this css is messy and redundant. I'll clean up later whenever i care :)*/
+  body {
+    background-image: url("force.jpg");
+    background-repeat: no-repeat;
+    background-position: fit;
+    background-size: cover;
+    background-color: lightblue; 
+    margin: 0;
+    height: 100%;
+    font-family: arial;
+    color:rgb(0, 500, 500);
+    font-size: 20px;
+    
+  }
+  
+  a {
+    color: rgba(0, 0, 0, 0.836);
+  }
+  
+  header, footer {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border: 15px ridge rgb(48, 34, 182);
+    padding: 10px;
+    background: black;
+    color: rgb(231, 189, 0);
+    text-shadow: 1px 1px 1px #000;
+    text-align: center;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+   #second {
+     font-size: 10px;
+   }
+   #first {
+       font-size: 30px; 
+       color:rgb(250, 225, 255);
+       background-color: rgba(0, 0, 0, 0.836);
+       border: solid black 10px;
+     }  
+  nav {
+    background-color: rgb(168, 0, 0);
+    text-align: center;
+    border: solid black 10px;
+  }
+   ul {
+    margin: 10px;
+    padding: 50px;
+    list-style: none;
+    align-items: center;
+    text-align: center;
+    display:block; 
+      margin-left: auto;
+      margin-right: auto;
+      width: 50%;
+  }
+  nav ul {
+    text-align: center;
+    display: inline-block; 
+    margin: 20px 200px;
+    margin-inline-start: 100px;
+    font-size: 24px;
+    font-family: "Algerian";
+    text-align: center; 
+  }  
+  nav {
+    background-color: rgb(140, 28, 184);
+  }nav ul {
+    align-self: center;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    align-items: center;
+    text-align: center;
+    
+  }nav ul li {
+    align-self: center;
+    display: inline-block;
+    margin: 20px;
+    margin-inline-start: 100px;
+    font-size: 24px;
+    font-family: "Algerian";
+    font: center;
+  }
+  
+  nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  
+  nav ul li {
+    display: inline-block;
+    margin: 20px;
+    font-size: 24px;
+  }
+  
+  section {
+    width: 95%;
+    margin: 0 auto;
+    padding: 5px;
+    min-height: 800px;
+      
+  }
+  
+  section img: {
+    margin-top: 20px;
+    max-width: 10px; 
+  }
+  #one a{
+    color: rgb(6, 66, 38);
+      border: solid black 3px;
+      align-content: center;
+      width:fit-content;
+      height: fit-content;
+      padding: 10px 10px 10px 10px;
+
+
+  }
+  #two a{
+    color:  rgb(249, 250, 244);
+    border: solid black 3px;
+    align-content: center;
+    width:fit-content;
+    height: fit-content;
+    padding: 10px 10px 10px 10px;
+
+
+}
+#three a{
+    
+    border: solid black 3px;
+    align-content: center;
+    width:fit-content;
+    height: fit-content;
+    padding: 10px 10px 10px 10px;
+    color: rgb(21, 11, 0);
+
+
+}
+
+  footer {
+    clear: left;
+    padding: 10px;
+
+  }
+  body, html { height: 100%; } 
+   .bg { background-color: lightblue;
+      height:100%; background-position: center; }
+  #list1 {
+    color: rgb(255, 255, 255);
+  }    
+  #four a {
+    color: rgb(14, 104, 171);
+    border: solid black 3px;
+    align-content: center;
+    width:fit-content;
+    height: fit-content;
+    padding: 10px 10px 10px 10px;
+    
+    
+}
