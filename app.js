@@ -32,14 +32,61 @@ function displayDate(){
     var timeDate= dateSet+' '+timeSet;
     
     document.write(timeDate+ ' This is the current date:)');
-    }
+}
 
 
 
-function colorChoice(){
+//function colorChoice() // this will force user to pick their favorite color
     var green1;
     var red1;
     var blue1;
     var white1;
     var black1;
+    function colorChoice(){    
+    var colorPick = prompt('Type in your favorite Deck color! (Red,Green,White,Blue,Black)')
+// warning bit reduant and long but it does what i does
+    while(colorPick.toLocaleLowerCase() !='red' && colorPick.toLocaleLowerCase() !='green' && colorPick.toLocaleLowerCase() !='white'&& colorPick.toLocaleLowerCase() !='blue' && colorPick.toLocaleLowerCase() !='black') {
+        colorPick = prompt('Please choose a correct color(Red,Green,White,Blue,Black!!)');
+    }
+}
+
+//    colorChoice();
+
+//}
+
+
+
+
+function showingCards(){
+var userCardNumber;
+var src = "https://upload.wikimedia.org/wikipedia/en/a/aa/Magic_the_gathering-card_back.jpg";
+show_image("https://upload.wikimedia.org/wikipedia/en/a/aa/Magic_the_gathering-card_back.jpg", 100,100,"");
+}
+
+function show_image(src, width, height, alt) {
+    var img = document.createElement("img");
+    img.src = src;
+    img.width= 100;
+    img.height= 100;
+    img.alt = alt;
+    document.getElementById("CardImg").appendChild(img);
+}
+
+
+    
+    
+// so the code on top of this was suppose to make it easier just to run the functions it self, i'm asumming
+// i had to give the img a source and direction but i just opted to make it all into one function dowb below
+function askCard() {
+    var actualCard = document.getElementById('CardImg');
+    var imagePath = 'https://upload.wikimedia.org/wikipedia/en/a/aa/Magic_the_gathering-card_back.jpg';
+    var img1;
+    var cardNumber = prompt("Type in the number of cards you want");
+    for (i = 0; i<=cardNumber-01; i++) {
+        img1 = new Image();
+        img1.src = imagePath;
+        actualCard.appendChild(img1);
+        img1.width =100;
+        img1.height= 100;
+    }  
 }
